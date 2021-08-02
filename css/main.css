@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  max-width: 1200px;
+  margin: auto; }
+
+#main {
+  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%; }
+  #main .header-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    #main .header-inner ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      #main .header-inner ul li {
+        margin-right: 1.5rem;
+        text-transform: uppercase; }
+    #main .header-inner img {
+      width: 70px;
+      height: 70px; }
+  #main .header-main {
+    text-align: center; }

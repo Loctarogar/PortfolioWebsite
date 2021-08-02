@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0; }
 
+body {
+  font-family: "Dosis", sans-serif; }
+
 li {
   list-style: none; }
 
@@ -12,25 +15,51 @@ a {
   max-width: 1200px;
   margin: auto; }
 
+.btn-main {
+  padding: 1rem 2.2rem;
+  border: none; }
+
+.btn-main {
+  color: black;
+  background: white; }
+
 #main {
   background: url("../img/showcase.jpg") no-repeat center right/cover;
   top: 0;
   right: 0;
   height: 100vh;
   width: 100%; }
-  #main .header-inner {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; }
-    #main .header-inner ul {
+  #main .header {
+    color: #fff;
+    height: 20vh;
+    padding: 1rem; }
+    #main .header-inner {
       display: flex;
       flex-direction: row;
-      align-items: center; }
-      #main .header-inner ul li {
-        margin-right: 1.5rem;
-        text-transform: uppercase; }
-    #main .header-inner img {
-      width: 70px;
-      height: 70px; }
-  #main .header-main {
-    text-align: center; }
+      justify-content: space-between; }
+      #main .header-inner ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center; }
+        #main .header-inner ul li {
+          margin-right: 1.5rem;
+          text-transform: uppercase; }
+      #main .header-inner img {
+        width: 70px;
+        height: 70px; }
+    #main .header-main {
+      line-height: 2.5rem;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      align-content: center; }
+      #main .header-main h1 {
+        font-size: 4.5rem;
+        margin-bottom: 1rem; }
+      #main .header-main p {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem; }
+      #main .header-main input {
+        margin-bottom: 10vh; }

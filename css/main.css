@@ -88,3 +88,16 @@ a {
     grid-template-columns: repeat(4, 1fr); }
     #specialization .specializations-item {
       padding: 1rem; }
+
+#my-awards .my-awards-div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
+  #my-awards .my-awards-div .my-awards-item {
+    text-align: center;
+    padding: 2rem 0; }
+    #my-awards .my-awards-div .my-awards-item * {
+      padding: 0.5rem; }
+    #my-awards .my-awards-div .my-awards-item h1 {
+      font-size: 25px; }
+  #my-awards .my-awards-div .my-awards-item:nth-child(even) {
+    background: #ccc; }

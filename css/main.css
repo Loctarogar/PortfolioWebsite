@@ -84,10 +84,10 @@ a {
     margin: 1rem auto;
     border-top: 2px solid #ffbc00; }
   #specialization .specializations {
+    margin: 2.5rem 0;
     display: grid;
-    grid-template-columns: repeat(4, 1fr); }
-    #specialization .specializations-item {
-      padding: 1rem; }
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem; }
 
 #my-awards .my-awards-div {
   display: grid;

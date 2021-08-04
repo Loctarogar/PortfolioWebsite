@@ -101,3 +101,36 @@ a {
       font-size: 25px; }
   #my-awards .my-awards-div .my-awards-item:nth-child(even) {
     background: #ccc; }
+
+#my-creative-process .my-creative-process-text {
+  text-align: center;
+  margin: 3rem 0; }
+
+#my-creative-process .my-creative-process-icons {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem; }
+  #my-creative-process .my-creative-process-icons .inner {
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f4f4f4;
+    width: 20vh;
+    height: 20vh;
+    background: #333;
+    border-radius: 50%; }
+    #my-creative-process .my-creative-process-icons .inner .process-step {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      background: #ffbc00;
+      font-size: 2rem; }

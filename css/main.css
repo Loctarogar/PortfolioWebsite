@@ -124,8 +124,15 @@ a {
     width: 20vh;
     height: 20vh;
     background: #333;
-    border-radius: 50%; }
+    border-radius: 50%;
+    transition: all 1s; }
+    #my-creative-process .my-creative-process-icons .inner:hover {
+      color: #f4f4f4;
+      background: #ffbc00; }
+      #my-creative-process .my-creative-process-icons .inner:hover .process-step {
+        background: #333; }
     #my-creative-process .my-creative-process-icons .inner .process-step {
+      transition: all 1s;
       display: flex;
       align-items: center;
       justify-content: center;

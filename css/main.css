@@ -184,7 +184,8 @@ a {
     max-width: 100%;
     max-height: 100%; }
   #about-me-section .about-me-text {
-    border-left: 3px #ffbc00 solid; }
+    border-left: 3px #ffbc00 solid;
+    padding: 1rem; }
 
 #about-me-awards {
   margin: 2rem 0; }

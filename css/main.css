@@ -32,6 +32,15 @@ a {
 .text-color-main {
   color: #ffbc00; }
 
+.text-centered {
+  text-align: center; }
+
+.underline {
+  display: block;
+  width: 3rem;
+  margin: 1rem auto;
+  border-top: 2px solid #ffbc00; }
+
 .header {
   color: #fff;
   height: 20vh;
@@ -78,26 +87,21 @@ a {
   width: 100%; }
 
 #main-about {
-  background: url("../img/showcase.jpg") no-repeat bottom right/cover;
+  background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
   top: 0;
   right: 0;
   width: 100%;
-  height: 20vh; }
+  height: 15vh;
+  border-bottom: 3px solid #ffbc00; }
 
-#specialization {
-  text-align: center; }
-  #specialization h1 {
-    margin: 1rem; }
-  #specialization .underline {
-    display: block;
-    width: 3rem;
-    margin: 1rem auto;
-    border-top: 2px solid #ffbc00; }
-  #specialization .specializations {
-    margin: 2.5rem 0;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem; }
+#specialization h1 {
+  margin: 1rem; }
+
+#specialization .specializations {
+  margin: 2.5rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem; }
 
 #my-awards .my-awards-div {
   display: grid;
@@ -152,6 +156,19 @@ a {
       border-radius: 50%;
       background: #ffbc00;
       font-size: 2rem; }
+
+#about-me-section .about-me-header {
+  margin: 2rem 1rem; }
+
+#about-me-section .about-me {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem; }
+  #about-me-section .about-me img {
+    max-width: 100%;
+    max-height: 100%; }
+  #about-me-section .about-me-text {
+    border-left: 3px #ffbc00 solid; }
 
 #footer {
   background: #333;

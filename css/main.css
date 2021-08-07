@@ -41,6 +41,43 @@ a {
   margin: 1rem auto;
   border-top: 2px solid #ffbc00; }
 
+.bar-background {
+  position: relative;
+  background: #f4f4f4;
+  width: 100%;
+  height: 1rem;
+  border-radius: 5px; }
+
+.bar-10 {
+  width: 10% !important; }
+
+.bar-20 {
+  width: 20% !important; }
+
+.bar-30 {
+  width: 30% !important; }
+
+.bar-40 {
+  width: 40% !important; }
+
+.bar-50 {
+  width: 50% !important; }
+
+.bar-60 {
+  width: 60% !important; }
+
+.bar-70 {
+  width: 70% !important; }
+
+.bar-80 {
+  width: 80% !important; }
+
+.bar-90 {
+  width: 90% !important; }
+
+.bar-100 {
+  width: 100% !important; }
+
 .header {
   color: #fff;
   height: 20vh;
@@ -196,3 +233,15 @@ a {
     gap: 1rem; }
     #about-me-awards .about-me-awards i {
       color: #ffbc00; }
+
+#technical-skills {
+  background-color: #333;
+  color: #f4f4f4;
+  padding: 3rem 0; }
+  #technical-skills .status-bars .bar {
+    position: absolute;
+    background-color: #ffbc00;
+    content: "";
+    height: 1rem;
+    width: 100%;
+    border-radius: 5px; }

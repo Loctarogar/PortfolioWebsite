@@ -245,3 +245,10 @@ a {
     height: 1rem;
     width: 100%;
     border-radius: 5px; }
+
+#logo-bar {
+  background: #f4f4f4; }
+  #logo-bar .logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }

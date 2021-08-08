@@ -252,3 +252,26 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
+
+#testimonials .opinions {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem; }
+  #testimonials .opinions .card .testimonial {
+    height: 150px;
+    width: 95%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem; }
+  #testimonials .opinions .card img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-top: 1rem; }
+  #testimonials .opinions .card .name {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    #testimonials .opinions .card .name p {
+      padding-top: 2rem;
+      padding-left: 1rem; }

@@ -78,6 +78,19 @@ a {
 .bar-100 {
   width: 100% !important; }
 
+#my-work .my-work-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+  #my-work .my-work-items .my-work-item {
+    position: relative; }
+    #my-work .my-work-items .my-work-item img {
+      width: 100%; }
+    #my-work .my-work-items .my-work-item .text-block {
+      position: absolute;
+      top: 0;
+      right: 0;
+      opacity: 0; }
+
 .header {
   color: #fff;
   height: 20vh;

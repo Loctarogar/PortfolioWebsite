@@ -78,6 +78,9 @@ a {
 .bar-100 {
   width: 100% !important; }
 
+#my-work .text-header {
+  margin: 3rem 0; }
+
 #my-work .my-work-items {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }

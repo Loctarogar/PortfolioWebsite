@@ -82,15 +82,32 @@ a {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
   #my-work .my-work-items .my-work-item {
+    z-index: 1;
     position: relative;
     overflow: hidden; }
     #my-work .my-work-items .my-work-item img {
       width: 100%; }
     #my-work .my-work-items .my-work-item .text-block {
+      z-index: 10;
       position: absolute;
+      color: #f4f4f4;
       top: 0;
       right: 0;
-      opacity: 0; }
+      opacity: 0;
+      margin-top: 30%;
+      margin-right: 30%; }
+      #my-work .my-work-items .my-work-item .text-block h1 {
+        font-size: 2.5rem;
+        font-weight: 1000; }
+      #my-work .my-work-items .my-work-item .text-block h2 {
+        font-size: 1.5rem;
+        font-weight: 600; }
+    #my-work .my-work-items .my-work-item:hover .text-block {
+      opacity: 1;
+      transition: opacity 2s; }
+    #my-work .my-work-items .my-work-item:hover img {
+      scale: 1.2;
+      transition: scale 1s; }
     #my-work .my-work-items .my-work-item::after {
       content: "";
       position: absolute;
@@ -99,8 +116,8 @@ a {
       width: 100%;
       height: 100%;
       background-color: #ffbc00;
-      opacity: 0.8;
-      transform: scale(2) translate(-85%, -85%) rotate(50deg);
+      opacity: 0.9;
+      transform: scale(2) translate(-75%, -75%) rotate(50deg);
       transition: transform 2s; }
     #my-work .my-work-items .my-work-item:hover::after {
       transform: scale(2) translate(0, 0) rotate(30deg); }

@@ -335,6 +335,7 @@ a {
     font-size: 1.2rem; }
 
 #contact-form form {
+  margin-bottom: 2rem;
   display: grid;
   gap: 1rem;
   grid-template-areas: "name email" "subject phone" "message message" "button button"; }

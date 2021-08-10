@@ -381,3 +381,31 @@ a {
   display: flex;
   align-items: center;
   justify-content: center; }
+
+@media (max-width: 500px) {
+  #main {
+    border-bottom: 2px solid #ffbc00;
+    height: 20vh; }
+    #main .header-inner {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    #main .header-main {
+      display: none; }
+  #specialization .specializations {
+    display: flex;
+    flex-direction: column; }
+  #my-awards .my-awards-div {
+    display: flex;
+    flex-direction: column; }
+  #my-creative-process .my-creative-process-icons {
+    text-align: center;
+    display: flex;
+    flex-direction: column; }
+  #footer .footer-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    #footer .footer-inner .social {
+      padding: 1rem 0 0 0; } }

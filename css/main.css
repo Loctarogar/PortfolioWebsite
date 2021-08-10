@@ -383,15 +383,15 @@ a {
   justify-content: center; }
 
 @media (max-width: 500px) {
-  #main {
+  #main-about {
     border-bottom: 2px solid #ffbc00;
     height: 20vh; }
-    #main .header-inner {
+    #main-about .header-inner {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center; }
-    #main .header-main {
+    #main-about .header-main {
       display: none; }
   #specialization .specializations {
     display: flex;
@@ -408,4 +408,40 @@ a {
     flex-direction: column;
     align-items: center; }
     #footer .footer-inner .social {
-      padding: 1rem 0 0 0; } }
+      padding: 1rem 0 0 0; }
+  #about-me-section .about-me {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem; }
+  #about-me-awards .about-me-awards {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem; }
+  #technical-skills .status-bars {
+    margin: 0 1rem; }
+  #logo-bar {
+    display: none; }
+  #testimonials .opinions {
+    display: flex;
+    flex-direction: column; }
+    #testimonials .opinions .card {
+      margin: 1rem; }
+      #testimonials .opinions .card .testimonial {
+        height: 100px; }
+      #testimonials .opinions .card:last-child {
+        margin: 1rem 1rem 0 1rem; }
+  #my-work .my-work-items {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem; }
+    #my-work .my-work-items:last-child {
+      margin-bottom: 1rem; }
+  #contact-form form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem 1rem 1rem; }
+  #contact-info .contact-info {
+    flex-direction: column; }
+  #contact-text {
+    font-size: 1.5rem;
+    text-align: center; } }

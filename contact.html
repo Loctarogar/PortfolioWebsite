@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
     <script src="js/typewriter.js"></script>
-    <title>Igor | Contakt</title>
+    <title>Igor | Contakt Me</title>
   </head>
   <body>
     <header id="main-about">
@@ -38,25 +38,25 @@
       </div>
     </header>
 
-    <section id="contact">
+    <section id="contact-me">
       <div class="container">
         <div class="contact-me-header">
-          <h1>CONTAKT ME</h1>
-          <p>Here is how you can reach me</p>
+          <h1 class="text-centered">CONTAKT ME</h1>
+          <div class="underline"></div>
+          <p class="text-centered">Here is how you can reach me</p>
         </div>
         <form>
-          <input type="text" placeholder="Name" />
-          <input type="text" placeholder="Email" />
-          <input type="text" placeholder="Subject" />
-          <input type="text" placeholder="Phone Number" />
+          <input type="text" placeholder="Name" id="name" />
+          <input type="text" placeholder="Email" id="email" />
+          <input type="text" placeholder="Subject" id="subject" />
+          <input type="text" placeholder="Phone Number" id="phone" />
           <textarea
             placeholder="Enter Message"
             name=""
-            id=""
-            cols="30"
-            rows="10"
+            id="message"
+            rows="8"
           ></textarea>
-          <input type="button" value="Submit" />
+          <input type="button" value="Submit" id="button" />
         </form>
       </div>
     </section>
